@@ -1,0 +1,26 @@
+{
+  "unversionedId": "api-integration",
+  "id": "api-integration",
+  "title": "API Integration",
+  "description": "Our Crypto Price Tracker fetches data from the CoinGecko API.",
+  "source": "@site/docs/api-integration.md",
+  "sourceDirName": ".",
+  "slug": "/api-integration",
+  "permalink": "/api-integration",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "api-integration",
+    "title": "API Integration"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Project Setup",
+    "permalink": "/project-setup"
+  },
+  "next": {
+    "title": "State Management",
+    "permalink": "/state-management"
+  }
+}

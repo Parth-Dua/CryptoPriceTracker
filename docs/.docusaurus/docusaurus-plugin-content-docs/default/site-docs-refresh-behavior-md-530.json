@@ -1,0 +1,22 @@
+{
+  "unversionedId": "refresh-behavior",
+  "id": "refresh-behavior",
+  "title": "Refresh Behavior",
+  "description": "1. Manual Refresh",
+  "source": "@site/docs/refresh-behavior.md",
+  "sourceDirName": ".",
+  "slug": "/refresh-behavior",
+  "permalink": "/refresh-behavior",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "refresh-behavior",
+    "title": "Refresh Behavior"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Challenges & Solutions",
+    "permalink": "/challenges-solutions"
+  }
+}

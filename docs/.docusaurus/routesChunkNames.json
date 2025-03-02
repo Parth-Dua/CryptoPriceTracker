@@ -1,0 +1,72 @@
+{
+  "/__docusaurus/debug-e2a": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+    }
+  },
+  "/__docusaurus/debug/config-65a": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+    }
+  },
+  "/__docusaurus/debug/content-b58": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-07b": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+    }
+  },
+  "/__docusaurus/debug/metadata-ded": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+    }
+  },
+  "/__docusaurus/debug/registry-a8b": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+    }
+  },
+  "/__docusaurus/debug/routes-ef2": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+    }
+  },
+  "/-4de": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---f-64-31a"
+    },
+    "versionMetadata": "versionMetadata---935-fcf"
+  },
+  "/api-integration-ff2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---api-integration-0-fb-d88"
+  },
+  "/challenges-solutions-cba": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---challenges-solutionsdf-7-f33"
+  },
+  "/project-setup-652": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---project-setupf-47-bf4"
+  },
+  "/refresh-behavior-7b9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---refresh-behavior-530-f10"
+  },
+  "/state-management-a6a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---state-management-034-f66"
+  }
+}

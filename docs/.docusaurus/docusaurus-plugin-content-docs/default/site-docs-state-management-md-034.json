@@ -1,0 +1,26 @@
+{
+  "unversionedId": "state-management",
+  "id": "state-management",
+  "title": "State Management",
+  "description": "We use React Query to handle:",
+  "source": "@site/docs/state-management.md",
+  "sourceDirName": ".",
+  "slug": "/state-management",
+  "permalink": "/state-management",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "state-management",
+    "title": "State Management"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "API Integration",
+    "permalink": "/api-integration"
+  },
+  "next": {
+    "title": "Challenges & Solutions",
+    "permalink": "/challenges-solutions"
+  }
+}

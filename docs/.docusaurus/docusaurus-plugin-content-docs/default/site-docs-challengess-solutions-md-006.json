@@ -1,0 +1,26 @@
+{
+  "unversionedId": "challenges-solutions",
+  "id": "challenges-solutions",
+  "title": "Challenges & Solutions",
+  "description": "1. Real-Time Data",
+  "source": "@site/docs/challengess-solutions.md",
+  "sourceDirName": ".",
+  "slug": "/challenges-solutions",
+  "permalink": "/docs/challenges-solutions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "challenges-solutions",
+    "title": "Challenges & Solutions"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "state-management",
+    "permalink": "/docs/state-management"
+  },
+  "next": {
+    "title": "refresh-behavior",
+    "permalink": "/docs/refresh-behavior"
+  }
+}

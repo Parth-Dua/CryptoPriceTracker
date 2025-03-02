@@ -1,0 +1,53 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "project-setup",
+          "docs": [
+            {
+              "id": "api-integration",
+              "path": "/api-integration",
+              "sidebar": "docs"
+            },
+            {
+              "id": "challenges-solutions",
+              "path": "/challenges-solutions",
+              "sidebar": "docs"
+            },
+            {
+              "id": "project-setup",
+              "path": "/project-setup",
+              "sidebar": "docs"
+            },
+            {
+              "id": "refresh-behavior",
+              "path": "/refresh-behavior",
+              "sidebar": "docs"
+            },
+            {
+              "id": "state-management",
+              "path": "/state-management",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/project-setup",
+                "label": "project-setup"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
