@@ -4,74 +4,101 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'e2a'),
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '65a'),
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'b58'),
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '07b'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'ded'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'a8b'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'ef2'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
     exact: true
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '4de'),
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page', '3d7'),
+    exact: true
+  },
+  {
+    path: '/docs',
+    component: ComponentCreator('/docs', '5ca'),
     routes: [
       {
-        path: '/api-integration',
-        component: ComponentCreator('/api-integration', 'ff2'),
-        exact: true,
-        sidebar: "docs"
-      },
-      {
-        path: '/challenges-solutions',
-        component: ComponentCreator('/challenges-solutions', 'cba'),
-        exact: true,
-        sidebar: "docs"
-      },
-      {
-        path: '/project-setup',
-        component: ComponentCreator('/project-setup', '652'),
-        exact: true,
-        sidebar: "docs"
-      },
-      {
-        path: '/refresh-behavior',
-        component: ComponentCreator('/refresh-behavior', '7b9'),
-        exact: true,
-        sidebar: "docs"
-      },
-      {
-        path: '/state-management',
-        component: ComponentCreator('/state-management', 'a6a'),
-        exact: true,
-        sidebar: "docs"
+        path: '/docs',
+        component: ComponentCreator('/docs', '10f'),
+        routes: [
+          {
+            path: '/docs',
+            component: ComponentCreator('/docs', 'a8d'),
+            routes: [
+              {
+                path: '/docs/api-integration',
+                component: ComponentCreator('/docs/api-integration', '95e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/challenges-solutions',
+                component: ComponentCreator('/docs/challenges-solutions', '75c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '853'),
+                exact: true
+              },
+              {
+                path: '/docs/project-setup',
+                component: ComponentCreator('/docs/project-setup', 'e61'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/refresh-behavior',
+                component: ComponentCreator('/docs/refresh-behavior', '2a4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/state-management',
+                component: ComponentCreator('/docs/state-management', '26e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              }
+            ]
+          }
+        ]
       }
     ]
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/', '2e1'),
+    exact: true
   },
   {
     path: '*',

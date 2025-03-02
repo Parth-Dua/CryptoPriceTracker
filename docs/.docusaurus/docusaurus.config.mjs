@@ -4,43 +4,271 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Crypto Tracker Docs",
-  "tagline": "Documentation for the Crypto Price Tracker",
-  "url": "http://localhost",
+  "title": "My Site",
+  "tagline": "Dinosaurs are cool",
+  "favicon": "img/favicon.ico",
+  "url": "https://crytpo-price-tracker-documentation.com",
   "baseUrl": "/",
+  "organizationName": "facebook",
+  "projectName": "docusaurus",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
-  "organizationName": "Parth-Dua",
-  "projectName": "crypto-price-tracker",
+  "i18n": {
+    "defaultLocale": "en",
+    "locales": [
+      "en"
+    ],
+    "path": "i18n",
+    "localeConfigs": {}
+  },
   "presets": [
     [
-      "@docusaurus/preset-classic",
+      "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/parthdua/Documents/Cryto Price Tracker/docs/sidebars.js",
-          "routeBasePath": "/"
+          "sidebarPath": "./sidebars.js",
+          "routeBasePath": "docs"
+        },
+        "blog": {
+          "showReadingTime": true,
+          "feedOptions": {
+            "type": [
+              "rss",
+              "atom"
+            ],
+            "xslt": true
+          },
+          "onInlineTags": "warn",
+          "onInlineAuthors": "warn",
+          "onUntruncatedBlogPosts": "warn"
+        },
+        "theme": {
+          "customCss": "./src/css/custom.css"
         }
       }
     ]
   ],
-  "baseUrlIssueBanner": true,
-  "i18n": {
-    "defaultLocale": "en",
-    "path": "i18n",
-    "locales": [
-      "en"
-    ],
-    "localeConfigs": {}
-  },
-  "onDuplicateRoutes": "warn",
-  "staticDirectories": [
-    "static"
-  ],
-  "customFields": {},
-  "plugins": [],
-  "themes": [],
   "themeConfig": {
+    "image": "img/docusaurus-social-card.jpg",
+    "navbar": {
+      "title": "Crypto Price Tracker Documentation",
+      "logo": {
+        "alt": "My Site Logo",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg"
+      },
+      "items": [
+        {
+          "href": "https://github.com/Parth-Dua/CryptoPriceTracker.git",
+          "label": "GitHub",
+          "position": "right"
+        }
+      ],
+      "hideOnScroll": false
+    },
+    "prism": {
+      "theme": {
+        "plain": {
+          "color": "#393A34",
+          "backgroundColor": "#f6f8fa"
+        },
+        "styles": [
+          {
+            "types": [
+              "comment",
+              "prolog",
+              "doctype",
+              "cdata"
+            ],
+            "style": {
+              "color": "#999988",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "namespace"
+            ],
+            "style": {
+              "opacity": 0.7
+            }
+          },
+          {
+            "types": [
+              "string",
+              "attr-value"
+            ],
+            "style": {
+              "color": "#e3116c"
+            }
+          },
+          {
+            "types": [
+              "punctuation",
+              "operator"
+            ],
+            "style": {
+              "color": "#393A34"
+            }
+          },
+          {
+            "types": [
+              "entity",
+              "url",
+              "symbol",
+              "number",
+              "boolean",
+              "variable",
+              "constant",
+              "property",
+              "regex",
+              "inserted"
+            ],
+            "style": {
+              "color": "#36acaa"
+            }
+          },
+          {
+            "types": [
+              "atrule",
+              "keyword",
+              "attr-name",
+              "selector"
+            ],
+            "style": {
+              "color": "#00a4db"
+            }
+          },
+          {
+            "types": [
+              "function",
+              "deleted",
+              "tag"
+            ],
+            "style": {
+              "color": "#d73a49"
+            }
+          },
+          {
+            "types": [
+              "function-variable"
+            ],
+            "style": {
+              "color": "#6f42c1"
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "selector",
+              "keyword"
+            ],
+            "style": {
+              "color": "#00009f"
+            }
+          }
+        ]
+      },
+      "darkTheme": {
+        "plain": {
+          "color": "#F8F8F2",
+          "backgroundColor": "#282A36"
+        },
+        "styles": [
+          {
+            "types": [
+              "prolog",
+              "constant",
+              "builtin"
+            ],
+            "style": {
+              "color": "rgb(189, 147, 249)"
+            }
+          },
+          {
+            "types": [
+              "inserted",
+              "function"
+            ],
+            "style": {
+              "color": "rgb(80, 250, 123)"
+            }
+          },
+          {
+            "types": [
+              "deleted"
+            ],
+            "style": {
+              "color": "rgb(255, 85, 85)"
+            }
+          },
+          {
+            "types": [
+              "changed"
+            ],
+            "style": {
+              "color": "rgb(255, 184, 108)"
+            }
+          },
+          {
+            "types": [
+              "punctuation",
+              "symbol"
+            ],
+            "style": {
+              "color": "rgb(248, 248, 242)"
+            }
+          },
+          {
+            "types": [
+              "string",
+              "char",
+              "tag",
+              "selector"
+            ],
+            "style": {
+              "color": "rgb(255, 121, 198)"
+            }
+          },
+          {
+            "types": [
+              "keyword",
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(189, 147, 249)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "comment"
+            ],
+            "style": {
+              "color": "rgb(98, 114, 164)"
+            }
+          },
+          {
+            "types": [
+              "attr-name"
+            ],
+            "style": {
+              "color": "rgb(241, 250, 140)"
+            }
+          }
+        ]
+      },
+      "additionalLanguages": [],
+      "magicComments": [
+        {
+          "className": "theme-code-block-highlighted-line",
+          "line": "highlight-next-line",
+          "block": {
+            "start": "highlight-start",
+            "end": "highlight-end"
+          }
+        }
+      ]
+    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
@@ -53,158 +281,41 @@ export default {
         "autoCollapseCategories": false
       }
     },
+    "blog": {
+      "sidebar": {
+        "groupByYear": true
+      }
+    },
     "metadata": [],
-    "navbar": {
-      "hideOnScroll": false,
-      "items": []
-    },
-    "prism": {
-      "additionalLanguages": [],
-      "theme": {
-        "plain": {
-          "color": "#bfc7d5",
-          "backgroundColor": "#292d3e"
-        },
-        "styles": [
-          {
-            "types": [
-              "comment"
-            ],
-            "style": {
-              "color": "rgb(105, 112, 152)",
-              "fontStyle": "italic"
-            }
-          },
-          {
-            "types": [
-              "string",
-              "inserted"
-            ],
-            "style": {
-              "color": "rgb(195, 232, 141)"
-            }
-          },
-          {
-            "types": [
-              "number"
-            ],
-            "style": {
-              "color": "rgb(247, 140, 108)"
-            }
-          },
-          {
-            "types": [
-              "builtin",
-              "char",
-              "constant",
-              "function"
-            ],
-            "style": {
-              "color": "rgb(130, 170, 255)"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "selector"
-            ],
-            "style": {
-              "color": "rgb(199, 146, 234)"
-            }
-          },
-          {
-            "types": [
-              "variable"
-            ],
-            "style": {
-              "color": "rgb(191, 199, 213)"
-            }
-          },
-          {
-            "types": [
-              "class-name",
-              "attr-name"
-            ],
-            "style": {
-              "color": "rgb(255, 203, 107)"
-            }
-          },
-          {
-            "types": [
-              "tag",
-              "deleted"
-            ],
-            "style": {
-              "color": "rgb(255, 85, 114)"
-            }
-          },
-          {
-            "types": [
-              "operator"
-            ],
-            "style": {
-              "color": "rgb(137, 221, 255)"
-            }
-          },
-          {
-            "types": [
-              "boolean"
-            ],
-            "style": {
-              "color": "rgb(255, 88, 116)"
-            }
-          },
-          {
-            "types": [
-              "keyword"
-            ],
-            "style": {
-              "fontStyle": "italic"
-            }
-          },
-          {
-            "types": [
-              "doctype"
-            ],
-            "style": {
-              "color": "rgb(199, 146, 234)",
-              "fontStyle": "italic"
-            }
-          },
-          {
-            "types": [
-              "namespace"
-            ],
-            "style": {
-              "color": "rgb(178, 204, 214)"
-            }
-          },
-          {
-            "types": [
-              "url"
-            ],
-            "style": {
-              "color": "rgb(221, 221, 221)"
-            }
-          }
-        ]
-      },
-      "magicComments": [
-        {
-          "className": "theme-code-block-highlighted-line",
-          "line": "highlight-next-line",
-          "block": {
-            "start": "highlight-start",
-            "end": "highlight-end"
-          }
-        }
-      ]
-    },
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
     }
   },
+  "baseUrlIssueBanner": true,
+  "future": {
+    "experimental_faster": {
+      "swcJsLoader": false,
+      "swcJsMinimizer": false,
+      "swcHtmlMinimizer": false,
+      "lightningCssMinimizer": false,
+      "mdxCrossCompilerCache": false,
+      "rspackBundler": false
+    },
+    "experimental_storage": {
+      "type": "localStorage",
+      "namespace": false
+    },
+    "experimental_router": "browser"
+  },
+  "onBrokenAnchors": "warn",
+  "onDuplicateRoutes": "warn",
+  "staticDirectories": [
+    "static"
+  ],
+  "customFields": {},
+  "plugins": [],
+  "themes": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],
@@ -212,6 +323,15 @@ export default {
   "titleDelimiter": "|",
   "noIndex": false,
   "markdown": {
-    "mermaid": false
+    "format": "mdx",
+    "mermaid": false,
+    "mdx1Compat": {
+      "comments": true,
+      "admonitions": true,
+      "headingIds": true
+    },
+    "anchors": {
+      "maintainCase": false
+    }
   }
 };

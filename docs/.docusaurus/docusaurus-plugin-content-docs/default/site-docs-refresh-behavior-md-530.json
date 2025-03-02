@@ -1,22 +1,26 @@
 {
-  "unversionedId": "refresh-behavior",
   "id": "refresh-behavior",
   "title": "Refresh Behavior",
   "description": "1. Manual Refresh",
   "source": "@site/docs/refresh-behavior.md",
   "sourceDirName": ".",
   "slug": "/refresh-behavior",
-  "permalink": "/refresh-behavior",
+  "permalink": "/docs/refresh-behavior",
   "draft": false,
+  "unlisted": false,
   "tags": [],
   "version": "current",
   "frontMatter": {
     "id": "refresh-behavior",
     "title": "Refresh Behavior"
   },
-  "sidebar": "docs",
+  "sidebar": "tutorialSidebar",
   "previous": {
+    "title": "State Management",
+    "permalink": "/docs/state-management"
+  },
+  "next": {
     "title": "Challenges & Solutions",
-    "permalink": "/challenges-solutions"
+    "permalink": "/docs/challenges-solutions"
   }
 }

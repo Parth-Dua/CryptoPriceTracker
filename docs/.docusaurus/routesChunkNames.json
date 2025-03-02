@@ -1,72 +1,96 @@
 {
-  "/__docusaurus/debug-e2a": {
+  "/__docusaurus/debug-5ff": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/config-65a": {
+  "/__docusaurus/debug/config-5ba": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/content-b58": {
+  "/__docusaurus/debug/content-a2b": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
   },
-  "/__docusaurus/debug/globalData-07b": {
+  "/__docusaurus/debug/globalData-c3c": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/metadata-ded": {
+  "/__docusaurus/debug/metadata-156": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/registry-a8b": {
+  "/__docusaurus/debug/registry-88c": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/__docusaurus/debug/routes-ef2": {
+  "/__docusaurus/debug/routes-000": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debugc-4-a-5e3"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/-4de": {
-    "__comp": "__comp---theme-doc-page-1-be-9be",
+  "/markdown-page-3d7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---f-64-31a"
+      "plugin": "plugin---markdown-pagea-74-7b5"
     },
-    "versionMetadata": "versionMetadata---935-fcf"
+    "content": "content---markdown-page-393-028"
   },
-  "/api-integration-ff2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---api-integration-0-fb-d88"
+  "/docs-5ca": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
   },
-  "/challenges-solutions-cba": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---challenges-solutionsdf-7-f33"
+  "/docs-10f": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
   },
-  "/project-setup-652": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---project-setupf-47-bf4"
+  "/docs-a8d": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/refresh-behavior-7b9": {
+  "/docs/api-integration-95e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---refresh-behavior-530-f10"
+    "content": "content---docs-api-integration-0-fb-8e8"
   },
-  "/state-management-a6a": {
+  "/docs/challenges-solutions-75c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---state-management-034-f66"
+    "content": "content---docs-challenges-solutions-864-30b"
+  },
+  "/docs/intro-853": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/project-setup-e61": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-project-setupf-47-00a"
+  },
+  "/docs/refresh-behavior-2a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-refresh-behavior-530-caa"
+  },
+  "/docs/state-management-26e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-state-management-034-5c4"
+  },
+  "/-2e1": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "config": "config---5-e-9-4f3"
   }
 }

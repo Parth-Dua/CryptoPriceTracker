@@ -1,46 +1,50 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/docs",
           "mainDocId": "project-setup",
           "docs": [
             {
               "id": "api-integration",
-              "path": "/api-integration",
-              "sidebar": "docs"
+              "path": "/docs/api-integration",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "challenges-solutions",
-              "path": "/challenges-solutions",
-              "sidebar": "docs"
+              "path": "/docs/challenges-solutions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro"
             },
             {
               "id": "project-setup",
-              "path": "/project-setup",
-              "sidebar": "docs"
+              "path": "/docs/project-setup",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "refresh-behavior",
-              "path": "/refresh-behavior",
-              "sidebar": "docs"
+              "path": "/docs/refresh-behavior",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "state-management",
-              "path": "/state-management",
-              "sidebar": "docs"
+              "path": "/docs/state-management",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "docs": {
+            "tutorialSidebar": {
               "link": {
-                "path": "/project-setup",
+                "path": "/docs/project-setup",
                 "label": "project-setup"
               }
             }
